@@ -8,7 +8,7 @@
 
 void setup()
 {
-  Wire.begin(21, 38); // Initialize the sensor
+  Wire.begin(16, 17); // Initialize the sensor
   Serial.begin(115200);
   Serial.println("\nI2C Scanner");
 }
