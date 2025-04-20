@@ -8,7 +8,7 @@
 
 void setup()
 {
-  Wire.begin(16, 17); // Initialize the sensor
+  Wire.begin(19, 18); // Initialize the sensor OLED display
   Serial.begin(115200);
   Serial.println("\nI2C Scanner");
 }
